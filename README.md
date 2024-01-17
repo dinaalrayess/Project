@@ -1,0 +1,1 @@
+For the final year project, I have deliberately chosen the animation of our Solar System, and with the press of the buttons found on the far right and left we will be able to see facts and real-life photos for each planet, the Sun and Pluto.
