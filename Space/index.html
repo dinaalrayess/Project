@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+    <title>Discovering Space</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="planet-container">
+            <div class="left-buttons">
+                <button class="planet-button" onclick="showPlanetPage('Mercury')">Mercury</button>
+                <button class="planet-button" onclick="showPlanetPage('Venus')">Venus</button>
+                <button class="planet-button" onclick="showPlanetPage('Earth')">Earth</button>
+                <button class="planet-button" onclick="showPlanetPage('Mars')">Mars</button>
+                <button class="planet-button" onclick="showPlanetPage('Jupiter')">Jupiter</button>
+            </div>
+    
+            <div class="right-buttons">
+                <button class="planet-button" onclick="showPlanetPage('Saturn')">Saturn</button>
+                <button class="planet-button" onclick="showPlanetPage('Uranus')">Uranus</button>
+                <button class="planet-button" onclick="showPlanetPage('Neptune')">Neptune</button>
+                <button class="planet-button" onclick="showPlanetPage('Pluto')">Pluto</button>
+                <button class="planet-button" onclick="showPlanetPage('Sun')">Sun</button>
+            </div>
+<div class="system-container">
+<div main class="system">
+    <div main class="orbit orbit-sun">
+        <img src="https://codetheworld.io/wp-content/uploads/2023/11/OJMebrQ-sun.png" alt="Sun">
+        </div>
+
+    <div main class="orbit orbit-mercury" id="mercury">
+        <div main class="planet planet-mercury">
+
+            <img src="https://codetheworld.io/wp-content/uploads/2023/11/OJMebrQ-mercury.png" alt="Mercury">
+        </div>
+    </div>
+    <div main class="orbit orbit-venus" id="venus">
+        <div main class="planet planet-venus">
+            <img src="https://codetheworld.io/wp-content/uploads/2023/11/OJMebrQ-venus.png" alt="Venus">
+        </div>
+    </div>
+    <div main class="orbit orbit-earth" id="earth">
+        <div main class="planet planet-earth">
+            <img src="https://codetheworld.io/wp-content/uploads/2023/11/OJMebrQ-earth.png" alt="Earth">
+        </div>
+    </div>
+    <div main class="orbit orbit-mars" id="mars">
+        <div main class="planet planet-mars">
+            <img src="https://codetheworld.io/wp-content/uploads/2023/11/OJMebrQ-mars.png" alt="Mars">
+        </div>
+    </div>
+    <div main class="orbit orbit-jupiter " id="jupiter">
+        <div main class="planet planet-jupiter">
+            <img src="https://codetheworld.io/wp-content/uploads/2023/11/OJMebrQ-jupiter.png" alt="Jupiter">
+        </div>
+    </div>
+    <div main class="orbit orbit-saturn" id="saturn">
+        <div main class="planet planet-saturn">
+            <img src="https://codetheworld.io/wp-content/uploads/2023/11/OJMebrQ-saturn.png" alt="Saturn">
+        </div>
+    </div>
+    <div main class="orbit orbit-uranus" id="uranus">
+        <div main class="planet planet-uranus">
+            <img src="https://codetheworld.io/wp-content/uploads/2023/11/OJMebrQ-uranus.png" alt="Uranus">
+        </div>
+    </div>
+    <div main class="orbit orbit-neptune" id="neptune">
+        <div main class="planet planet-neptune">
+            <img src="https://codetheworld.io/wp-content/uploads/2023/11/OJMebrQ-neptune.png" alt="Neptune">
+        </div>
+    </div>
+    <div main class="orbit orbit-pluto" id="pluto">
+        <div main class="planet planet-pluto">
+            <img src="https://codetheworld.io/wp-content/uploads/2023/11/OJMebrQ-pluto.png" alt="Pluto">
+        </div>
+    </div>
+    <div main class="main-text">Our Solar System.
+    </div>
+    <div id="planet-info" class="planet-info-container" style="display: none;">
+        <span class="close" onclick="closePlanetPage()">&times;</span>
+        <div class="planet-content">
+          <div class="planet-image"></div>
+          <div class="planet-info-text"></div>
+      </div>
+      </div>
+    </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
